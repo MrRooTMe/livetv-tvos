@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0405A8C91C2F388E006E3335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405A8C81C2F388E006E3335 /* main.m */; };
-		0405A8CC1C2F388E006E3335 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405A8CB1C2F388E006E3335 /* AppDelegate.m */; };
-		0405A8D21C2F388E006E3335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0405A8D01C2F388E006E3335 /* Main.storyboard */; };
-		0405A8D41C2F388E006E3335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0405A8D31C2F388E006E3335 /* Assets.xcassets */; };
-		0405A8DF1C2F388E006E3335 /* Live_BoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405A8DE1C2F388E006E3335 /* Live_BoxTests.m */; };
-		0405A8EA1C2F388E006E3335 /* Live_BoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405A8E91C2F388E006E3335 /* Live_BoxUITests.m */; };
-		048289401C40216300C4C9A0 /* ChannelsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482893F1C40216300C4C9A0 /* ChannelsTableCell.m */; };
-		048289431C4024A400C4C9A0 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 048289421C4024A400C4C9A0 /* JSON.m */; };
-		048289491C40591E00C4C9A0 /* ChannelsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 048289481C40591E00C4C9A0 /* ChannelsTVC.m */; };
-		0482894C1C40769A00C4C9A0 /* FirstTimeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482894B1C40769A00C4C9A0 /* FirstTimeScreenViewController.m */; };
+               0405A8CC1C2F388E006E3335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405A8CB1C2F388E006E3335 /* AppDelegate.swift */; };
+               0405A8D21C2F388E006E3335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0405A8D01C2F388E006E3335 /* Main.storyboard */; };
+               0405A8D41C2F388E006E3335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0405A8D31C2F388E006E3335 /* Assets.xcassets */; };
+               0405A8DF1C2F388E006E3335 /* Live_BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405A8DE1C2F388E006E3335 /* Live_BoxTests.swift */; };
+               0405A8EA1C2F388E006E3335 /* Live_BoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405A8E91C2F388E006E3335 /* Live_BoxUITests.swift */; };
+               048289401C40216300C4C9A0 /* ChannelsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482893F1C40216300C4C9A0 /* ChannelsTableCell.swift */; };
+               048289431C4024A400C4C9A0 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048289421C4024A400C4C9A0 /* Channel.swift */; };
+               048289491C40591E00C4C9A0 /* ChannelsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048289481C40591E00C4C9A0 /* ChannelsTVC.swift */; };
+               0482894C1C40769A00C4C9A0 /* FirstTimeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482894B1C40769A00C4C9A0 /* FirstTimeScreenViewController.swift */; };
+               E1F8B1A3297E4B5500A1A1A1 /* LiveBoxAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8B1A1297E4B5500A1A1A1 /* LiveBoxAPI.swift */; };
+               E1F8B1A4297E4B5500A1A1A1 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8B1A2297E4B5500A1A1A1 /* KeychainStore.swift */; };
 		BBA3A98A0A8CAE9084F36FAF /* libPods-Live Box.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6183701E2026E0FBB02C65 /* libPods-Live Box.a */; };
 /* End PBXBuildFile section */
 
@@ -39,26 +40,22 @@
 
 /* Begin PBXFileReference section */
 		0405A8C41C2F388E006E3335 /* Live Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0405A8C81C2F388E006E3335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0405A8CA1C2F388E006E3335 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0405A8CB1C2F388E006E3335 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+               0405A8CB1C2F388E006E3335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0405A8D11C2F388E006E3335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0405A8D31C2F388E006E3335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0405A8D51C2F388E006E3335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0405A8DA1C2F388E006E3335 /* Live BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Live BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0405A8DE1C2F388E006E3335 /* Live_BoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Live_BoxTests.m; sourceTree = "<group>"; };
+               0405A8DE1C2F388E006E3335 /* Live_BoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_BoxTests.swift; sourceTree = "<group>"; };
 		0405A8E01C2F388E006E3335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0405A8E51C2F388E006E3335 /* Live BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Live BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0405A8E91C2F388E006E3335 /* Live_BoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Live_BoxUITests.m; sourceTree = "<group>"; };
+               0405A8E91C2F388E006E3335 /* Live_BoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_BoxUITests.swift; sourceTree = "<group>"; };
 		0405A8EB1C2F388E006E3335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0482893E1C40216300C4C9A0 /* ChannelsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableCell.h; sourceTree = "<group>"; };
-		0482893F1C40216300C4C9A0 /* ChannelsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableCell.m; sourceTree = "<group>"; };
-		048289411C4024A400C4C9A0 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
-		048289421C4024A400C4C9A0 /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
-		048289471C40591E00C4C9A0 /* ChannelsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTVC.h; sourceTree = "<group>"; };
-		048289481C40591E00C4C9A0 /* ChannelsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTVC.m; sourceTree = "<group>"; };
-		0482894A1C40769A00C4C9A0 /* FirstTimeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTimeScreenViewController.h; sourceTree = "<group>"; };
-		0482894B1C40769A00C4C9A0 /* FirstTimeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTimeScreenViewController.m; sourceTree = "<group>"; };
+               0482893F1C40216300C4C9A0 /* ChannelsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsTableCell.swift; sourceTree = "<group>"; };
+               048289421C4024A400C4C9A0 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model/Channel.swift; sourceTree = "<group>"; };
+               048289481C40591E00C4C9A0 /* ChannelsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsTVC.swift; sourceTree = "<group>"; };
+               0482894B1C40769A00C4C9A0 /* FirstTimeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTimeScreenViewController.swift; sourceTree = "<group>"; };
+               E1F8B1A1297E4B5500A1A1A1 /* LiveBoxAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/LiveBoxAPI.swift; sourceTree = "<group>"; };
+               E1F8B1A2297E4B5500A1A1A1 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/KeychainStore.swift; sourceTree = "<group>"; };
 		187F3E760BBEA415B5034448 /* Pods-Live Box.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Box.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Live Box/Pods-Live Box.debug.xcconfig"; sourceTree = "<group>"; };
 		AF6183701E2026E0FBB02C65 /* libPods-Live Box.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Live Box.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D2615CEFC8E91DBF97983B /* Pods-Live Box.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Box.release.xcconfig"; path = "Pods/Target Support Files/Pods-Live Box/Pods-Live Box.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,61 +109,73 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0405A8C61C2F388E006E3335 /* Live Box */ = {
-			isa = PBXGroup;
-			children = (
-				048289461C4058FA00C4C9A0 /* Controller */,
-				0405A8CA1C2F388E006E3335 /* AppDelegate.h */,
-				0405A8CB1C2F388E006E3335 /* AppDelegate.m */,
-				0482893E1C40216300C4C9A0 /* ChannelsTableCell.h */,
-				0482893F1C40216300C4C9A0 /* ChannelsTableCell.m */,
-				048289411C4024A400C4C9A0 /* JSON.h */,
-				048289421C4024A400C4C9A0 /* JSON.m */,
-				0405A8D01C2F388E006E3335 /* Main.storyboard */,
-				0405A8D31C2F388E006E3335 /* Assets.xcassets */,
-				0405A8D51C2F388E006E3335 /* Info.plist */,
-				0405A8C71C2F388E006E3335 /* Supporting Files */,
-			);
-			path = "Live Box";
-			sourceTree = "<group>";
-		};
-		0405A8C71C2F388E006E3335 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0405A8C81C2F388E006E3335 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0405A8DD1C2F388E006E3335 /* Live BoxTests */ = {
-			isa = PBXGroup;
-			children = (
-				0405A8DE1C2F388E006E3335 /* Live_BoxTests.m */,
-				0405A8E01C2F388E006E3335 /* Info.plist */,
-			);
-			path = "Live BoxTests";
-			sourceTree = "<group>";
-		};
-		0405A8E81C2F388E006E3335 /* Live BoxUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0405A8E91C2F388E006E3335 /* Live_BoxUITests.m */,
-				0405A8EB1C2F388E006E3335 /* Info.plist */,
-			);
-			path = "Live BoxUITests";
-			sourceTree = "<group>";
-		};
-		048289461C4058FA00C4C9A0 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				048289471C40591E00C4C9A0 /* ChannelsTVC.h */,
-				048289481C40591E00C4C9A0 /* ChannelsTVC.m */,
-				0482894A1C40769A00C4C9A0 /* FirstTimeScreenViewController.h */,
-				0482894B1C40769A00C4C9A0 /* FirstTimeScreenViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
+               0405A8C61C2F388E006E3335 /* Live Box */ = {
+                       isa = PBXGroup;
+                       children = (
+                               048289461C4058FA00C4C9A0 /* Controller */,
+                               0405A8CB1C2F388E006E3335 /* AppDelegate.swift */,
+                               0482893F1C40216300C4C9A0 /* ChannelsTableCell.swift */,
+                               E1F8B1A5297E4B5500A1A1A1 /* Model */,
+                               E1F8B1A6297E4B5500A1A1A1 /* Services */,
+                               E1F8B1A7297E4B5500A1A1A1 /* Utilities */,
+                               0405A8D01C2F388E006E3335 /* Main.storyboard */,
+                               0405A8D31C2F388E006E3335 /* Assets.xcassets */,
+                               0405A8D51C2F388E006E3335 /* Info.plist */,
+                       );
+                       path = "Live Box";
+                       sourceTree = "<group>";
+               };
+               0405A8DD1C2F388E006E3335 /* Live BoxTests */ = {
+                       isa = PBXGroup;
+                       children = (
+                               0405A8DE1C2F388E006E3335 /* Live_BoxTests.swift */,
+                               0405A8E01C2F388E006E3335 /* Info.plist */,
+                       );
+                       path = "Live BoxTests";
+                       sourceTree = "<group>";
+               };
+               0405A8E81C2F388E006E3335 /* Live BoxUITests */ = {
+                       isa = PBXGroup;
+                       children = (
+                               0405A8E91C2F388E006E3335 /* Live_BoxUITests.swift */,
+                               0405A8EB1C2F388E006E3335 /* Info.plist */,
+                       );
+                       path = "Live BoxUITests";
+                       sourceTree = "<group>";
+               };
+               048289461C4058FA00C4C9A0 /* Controller */ = {
+                       isa = PBXGroup;
+                       children = (
+                               048289481C40591E00C4C9A0 /* ChannelsTVC.swift */,
+                               0482894B1C40769A00C4C9A0 /* FirstTimeScreenViewController.swift */,
+                       );
+                       path = Controller;
+                       sourceTree = "<group>";
+               };
+               E1F8B1A5297E4B5500A1A1A1 /* Model */ = {
+                       isa = PBXGroup;
+                       children = (
+                               048289421C4024A400C4C9A0 /* Channel.swift */,
+                       );
+                       path = Model;
+                       sourceTree = "<group>";
+               };
+               E1F8B1A6297E4B5500A1A1A1 /* Services */ = {
+                       isa = PBXGroup;
+                       children = (
+                               E1F8B1A1297E4B5500A1A1A1 /* LiveBoxAPI.swift */,
+                       );
+                       path = Services;
+                       sourceTree = "<group>";
+               };
+               E1F8B1A7297E4B5500A1A1A1 /* Utilities */ = {
+                       isa = PBXGroup;
+                       children = (
+                               E1F8B1A2297E4B5500A1A1A1 /* KeychainStore.swift */,
+                       );
+                       path = Utilities;
+                       sourceTree = "<group>";
+               };
 		1BC8226F9746C4238A912075 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,35 +369,36 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0405A8C01C2F388E006E3335 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				048289431C4024A400C4C9A0 /* JSON.m in Sources */,
-				048289491C40591E00C4C9A0 /* ChannelsTVC.m in Sources */,
-				0482894C1C40769A00C4C9A0 /* FirstTimeScreenViewController.m in Sources */,
-				0405A8CC1C2F388E006E3335 /* AppDelegate.m in Sources */,
-				0405A8C91C2F388E006E3335 /* main.m in Sources */,
-				048289401C40216300C4C9A0 /* ChannelsTableCell.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0405A8D61C2F388E006E3335 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0405A8DF1C2F388E006E3335 /* Live_BoxTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0405A8E11C2F388E006E3335 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0405A8EA1C2F388E006E3335 /* Live_BoxUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+               0405A8C01C2F388E006E3335 /* Sources */ = {
+                       isa = PBXSourcesBuildPhase;
+                       buildActionMask = 2147483647;
+                       files = (
+                               048289431C4024A400C4C9A0 /* Channel.swift in Sources */,
+                               048289491C40591E00C4C9A0 /* ChannelsTVC.swift in Sources */,
+                               0482894C1C40769A00C4C9A0 /* FirstTimeScreenViewController.swift in Sources */,
+                               0405A8CC1C2F388E006E3335 /* AppDelegate.swift in Sources */,
+                               048289401C40216300C4C9A0 /* ChannelsTableCell.swift in Sources */,
+                               E1F8B1A3297E4B5500A1A1A1 /* LiveBoxAPI.swift in Sources */,
+                               E1F8B1A4297E4B5500A1A1A1 /* KeychainStore.swift in Sources */,
+                       );
+                       runOnlyForDeploymentPostprocessing = 0;
+               };
+               0405A8D61C2F388E006E3335 /* Sources */ = {
+                       isa = PBXSourcesBuildPhase;
+                       buildActionMask = 2147483647;
+                       files = (
+                               0405A8DF1C2F388E006E3335 /* Live_BoxTests.swift in Sources */,
+                       );
+                       runOnlyForDeploymentPostprocessing = 0;
+               };
+               0405A8E11C2F388E006E3335 /* Sources */ = {
+                       isa = PBXSourcesBuildPhase;
+                       buildActionMask = 2147483647;
+                       files = (
+                               0405A8EA1C2F388E006E3335 /* Live_BoxUITests.swift in Sources */,
+                       );
+                       runOnlyForDeploymentPostprocessing = 0;
+               };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -505,12 +515,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Live Box/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gq.livebox.tv.LiveBox;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		0405A8F01C2F388E006E3335 /* Release */ = {
+                                PRODUCT_BUNDLE_IDENTIFIER = gq.livebox.tv.LiveBox;
+                                PRODUCT_NAME = "$(TARGET_NAME)";
+                                SWIFT_VERSION = 5.0;
+                        };
+                        name = Debug;
+                };
+                0405A8F01C2F388E006E3335 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4D2615CEFC8E91DBF97983B /* Pods-Live Box.release.xcconfig */;
 			buildSettings = {
@@ -519,21 +530,23 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Live Box/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gq.livebox.tv.LiveBox;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		0405A8F21C2F388E006E3335 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Live BoxTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "gq.livebox.tv.Live-BoxTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live Box.app/Live Box";
-			};
+                                PRODUCT_BUNDLE_IDENTIFIER = gq.livebox.tv.LiveBox;
+                                PRODUCT_NAME = "$(TARGET_NAME)";
+                                SWIFT_VERSION = 5.0;
+                        };
+                        name = Release;
+                };
+                0405A8F21C2F388E006E3335 /* Debug */ = {
+                        isa = XCBuildConfiguration;
+                        buildSettings = {
+                                BUNDLE_LOADER = "$(TEST_HOST)";
+                                INFOPLIST_FILE = "Live BoxTests/Info.plist";
+                                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                                PRODUCT_BUNDLE_IDENTIFIER = "gq.livebox.tv.Live-BoxTests";
+                                PRODUCT_NAME = "$(TARGET_NAME)";
+                                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live Box.app/Live Box";
+                                SWIFT_VERSION = 5.0;
+                        };
 			name = Debug;
 		};
 		0405A8F31C2F388E006E3335 /* Release */ = {
@@ -542,10 +555,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Live BoxTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "gq.livebox.tv.Live-BoxTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live Box.app/Live Box";
-			};
+                                PRODUCT_BUNDLE_IDENTIFIER = "gq.livebox.tv.Live-BoxTests";
+                                PRODUCT_NAME = "$(TARGET_NAME)";
+                                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live Box.app/Live Box";
+                                SWIFT_VERSION = 5.0;
+                        };
 			name = Release;
 		};
 		0405A8F51C2F388E006E3335 /* Debug */ = {
@@ -553,11 +567,12 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Live BoxUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "gq.livebox.tv.Live-BoxUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Live Box";
-				USES_XCTRUNNER = YES;
-			};
+                                PRODUCT_BUNDLE_IDENTIFIER = "gq.livebox.tv.Live-BoxUITests";
+                                PRODUCT_NAME = "$(TARGET_NAME)";
+                                TEST_TARGET_NAME = "Live Box";
+                                USES_XCTRUNNER = YES;
+                                SWIFT_VERSION = 5.0;
+                        };
 			name = Debug;
 		};
 		0405A8F61C2F388E006E3335 /* Release */ = {
@@ -565,11 +580,12 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Live BoxUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "gq.livebox.tv.Live-BoxUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Live Box";
-				USES_XCTRUNNER = YES;
-			};
+                                PRODUCT_BUNDLE_IDENTIFIER = "gq.livebox.tv.Live-BoxUITests";
+                                PRODUCT_NAME = "$(TARGET_NAME)";
+                                TEST_TARGET_NAME = "Live Box";
+                                USES_XCTRUNNER = YES;
+                                SWIFT_VERSION = 5.0;
+                        };
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
